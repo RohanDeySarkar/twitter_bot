@@ -1,10 +1,10 @@
 import tweepy
 import time
 
-CONSUMER_KEY = 'uWgt6k1Mzl6IN1IiEKvHAHaNm'
-CONSUMER_SECRET = 'PNsb7eZpt8AUdN0TzUNZOsvAaxajMmw094nvcTIVlRd2ne64yx'
-ACCESS_KEY = '1061225034407206912-v5VBoAVQddfuZdSABSDZH8azyQXmLm'
-ACCESS_SECRET = 'eiwbyRCFz1TeKXVFyIVAJ3RGqoJ5HLoMeqX4NaFs9lfrU'
+CONSUMER_KEY = '**************************'
+CONSUMER_SECRET = '***************************************'
+ACCESS_KEY = '*******************************************'
+ACCESS_SECRET = '***************************************'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
@@ -50,53 +50,3 @@ while True:
     time.sleep(15)
         
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        
-        
-        
