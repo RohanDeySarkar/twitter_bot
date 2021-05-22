@@ -1,3 +1,5 @@
+# @EditRohan -> bot profile
+
 import tweepy
 import time
 from textblob import TextBlob
