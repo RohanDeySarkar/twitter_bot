@@ -57,7 +57,7 @@ def reply_to_tweets():
         sentiment = tweet_sentiment(mention.full_text.lower())
 
         reply_neutral = ['Is that so', 'Maybe', 'Probably', 'Sure', 'Affirmative', 'thanks man']
-        reply_angry = ["I'm goona beat u up!!", "don't talk shit like that", "wanna see violence nigga"]
+        reply_angry = ["I am angry!!", "don't talk like that", "I'm gonaa report u!!"]
         
         if sentiment is 'positive':
             api.update_status(random.choice(reply_neutral) + ',  @' + mention.user.screen_name, mention.id)
